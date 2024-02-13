@@ -213,6 +213,18 @@ h2{
     margin-top: 20px;
   }
   
+  .h-2::after {
+    /* content: ""; */
+    /* position: absolute; */
+    top: 44%;
+    /* margin-left: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 7rem;
+    height: 4px;
+    background-color: green; */
+}
+
 }
 
 
