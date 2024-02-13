@@ -216,7 +216,7 @@ h2{
   .h-2::after {
     /* content: ""; */
     /* position: absolute; */
-    top: 44%;
+    top: 46%;
     /* margin-left: 10px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
