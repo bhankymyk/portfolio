@@ -218,9 +218,10 @@ h2{
   margin-top: 200px;
 }
 
-  .imgBox:hover .projects__image .imgB {
+  .imgB:hover{
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
+  /* background: #42b983; */
 
 }
 
