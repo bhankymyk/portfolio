@@ -68,55 +68,80 @@
           <h5 class="mt-1">Outside of coding, I indulge in reading, watching football, and delving into the realms of finance and economics.</h5>
         </div>
         <div class="col-md-4 Contact">
-          <div> <button class="btn  btn-block btn-success">Contact Me</button>  </div>
+          <div>  
+            <a href="https://drive.google.com/file/d/1QabxhsHbmtaKU6BDYnRtOrSSvpoMmgjp/view?usp=sharing">
+              
+              <button class="btn  btn-block btn-success">My Resume</button>  
+            </a>
+          </div>
         </div>
       </div>
       
       <!-- PROJECTS -->
       <div class="row mt-5">
         <h2>Projects</h2>
-        <div class="col-md-6 mt-3">
-          <div class="imgBox">
-            <img src="../assets/Mealy.png"  class="img-fluid" alt="">
+        <!-- Project 1 -->
+        <div class="col-md-6 mt-3 imgBox">
+          <div class="">
+            <img src="../assets/Mealy.png"  class="img-fluid imgB" alt="">
           </div>
           <div class="btnBox">
-            <button class="btn btn-dark">Github</button>
-            <button class="btn btn-dark">Live Demo</button>
+            <a href="https://github.com/bhankymyk/Calorie-meal-planner">
+              <button class="btn btn-success">Github</button>
+            </a>
+            <a href="https://calorie-meal-planner.netlify.app/">
+              <button class="btn btn-success">Live Demo</button>
+            </a>
           </div>
         </div>
-        <div class="col-md-6 ">
-          <div class="imgBox">
-            <img src="../assets/Restaurantly.png"  class="img-fluid" alt="">
+        <!-- Project 2 -->
+        <div class="col-md-6 mt-3 imgBox ">
+          <div class="">
+            <img src="../assets/Landify.png"  class="img-fluid imgB" alt="">
           </div>
           <div class="btnBox">
-            <button class="btn btn-dark">Github</button>
-            <button class="btn btn-dark">Live Demo</button>
+            <a href="https://github.com/bhankymyk/playground-app">
+              <button class="btn btn-success">Github</button>
+            </a>
+            <a href="https://landingpage-vue.netlify.app/">
+              <button class="btn btn-success">Live Demo</button>
+            </a>
           </div>
         </div>
       </div>
-      
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <div class="imgBox">
-            <img src="../assets/Expensely.png"  class="img-fluid" alt="">
+      <!-- Project 3 -->
+      <div class="row mt-5 ">
+        <div class="col-md-6 imgBox">
+          <div class="">
+            <img src="../assets/Expensely.png"  class="img-fluid imgB" alt="">
           </div>
           <div class="btnBox">
-            <button class="btn btn-dark">Github</button>
-            <button class="btn btn-dark">Live Demo</button>
+            <a href="https://github.com/bhankymyk/Expenses-Tracker-v1">
+              <button class="btn btn-success">Github</button>
+            </a>
+            <a href="https://expenses-trackers-v1.netlify.app/">
+              <button class="btn btn-success">Live Demo</button>
+            </a>
           </div>
         </div>
-        <div class="col-md-6 ">
+        <!-- Project 4 -->
+        <div class="col-md-6 imgBox">
           <div class="imgBox">
-            <img src="../assets/Pafnation.png"  class="img-fluid" alt="">
+            <img src="../assets/Restaurantly.png"  class="img-fluid imgB"  alt="">
           </div>
           <div class="btnBox">
-            <button class="btn btn-dark">Github</button>
-            <button class="btn btn-dark">Live Demo</button>
+            <a href="https://github.com/bhankymyk/restaurant">
+              <button class="btn btn-success">Github</button>
+            </a>
+            <a href="https://restaurant-managements.netlify.app/">
+              <button class="btn btn-success">Live Demo</button>
+            </a>
           </div>
         </div>
+      </div>
       </div>
 
-      <div class="row mt-3">
+      <!-- <div class="row mt-3">
         <div class="col">
           <h2>Skills</h2>
           <ul>
@@ -127,7 +152,7 @@
             <li><h5> <font-awesome-icon :icon="['fab', 'vuejs']" /> Vue Js</h5></li>
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-md">
@@ -135,11 +160,11 @@
           <h5>Feel free to reach out if you're looking for a front end engineer <br>
             to work on your next project, have a question or just fancy saying hi.</h5>
           <ul>
-            <li><h5> <font-awesome-icon :icon="['fas', 'envelope']" /> Email</h5></li>
-            <li> <h5><font-awesome-icon :icon="['fab', 'linkedin']" /> LinkedIn</h5> </li>
-            <li> <h5><font-awesome-icon :icon="['fab', 'twitter']" /> Twitter</h5></li>
-            <li><h5> <font-awesome-icon :icon="['fab', 'github']" /> Github</h5></li>
-            <li> <h5> <font-awesome-icon :icon="['fab', 'square-whatsapp']" /> WhatsApp</h5> </li>
+            <li> <a href="mailto:bankole123michael.com"> <h5> <font-awesome-icon :icon="['fas', 'envelope']" /> Email</h5> </a></li>
+            <li> <a href="https://www.linkedin.com/in/bankole-michael/"> <h5><font-awesome-icon :icon="['fab', 'linkedin']" /> LinkedIn </h5> </a> </li>
+            <li> <a href="https://twitter.com/bhankymyk1"> <h5><font-awesome-icon :icon="['fab', 'twitter']" /> Twitter</h5> </a> </li>
+            <li> <a href="https://github.com/bhankymyk/"> <h5> <font-awesome-icon :icon="['fab', 'github']" /> Github</h5> </a></li>
+            <li> <a href="https://wa.link/fhdus1"> <h5> <font-awesome-icon :icon="['fab', 'square-whatsapp']" /> WhatsApp</h5> </a> </li>
           </ul>
         </div>
       </div>
@@ -147,7 +172,7 @@
       
       
     </div>
-  </div>
+    <!-- </div> -->
   </template>
 
 <script>
@@ -192,9 +217,21 @@ h2{
 .Contact{
   margin-top: 200px;
 }
-.imgBox{
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px
+
+  .imgBox:hover .projects__image .imgB {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+
 }
+
+.imgB{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
 .btnBox Button{
   margin: 7px;
 }
@@ -247,5 +284,6 @@ li {
 }
 a {
   color: #42b983;
+  text-decoration: none;
 }
 </style>
