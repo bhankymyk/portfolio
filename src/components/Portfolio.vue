@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
@@ -49,14 +48,17 @@
     </div>
   </div>
 </nav>
+
+<!-- Portfolio -->
+
 <div class="row mt-5">
-  <div class="col-md text-center">
+  <div class="col-md text-center"  v-motion-roll-top>
     <h1>Hello 👋, <br>I'm <span class="inBtw">Bankole Michael</span>  <br> A Front-End Developer</h1>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me </h2>
     <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
       My competence in Vue empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
@@ -76,12 +78,14 @@
           </div>
         </div>
       </div>
+
+      <!-- <div v-motion:initial="{ y: 100,  opacity: 0, }" :enter="{ y: 0, opacity: 1, transition: { y: { delay: 1600, }, opacity: {  duration: 1600, }, }, }"/> -->
       
       <!-- PROJECTS -->
       <div class="row mt-5">
         <h2>Projects</h2>
         <!-- Project 1 -->
-        <div class="col-md-6 mt-3 imgBox">
+        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
           <div class="">
             <img src="../assets/Mealy.png"  class="img-fluid imgB" alt="">
           </div>
@@ -95,7 +99,7 @@
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="col-md-6 mt-3 imgBox ">
+        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
           <div class="">
             <img src="../assets/Landify.png"  class="img-fluid imgB" alt="">
           </div>
@@ -111,7 +115,7 @@
       </div>
       <!-- Project 3 -->
       <div class="row mt-5 ">
-        <div class="col-md-6 imgBox">
+        <div class="col-md-6 imgBox" v-motion-pop-visible-once>
           <div class="">
             <img src="../assets/Expensely.png"  class="img-fluid imgB" alt="">
           </div>
@@ -125,7 +129,7 @@
           </div>
         </div>
         <!-- Project 4 -->
-        <div class="col-md-6 imgBox">
+        <div class="col-md-6 imgBox" v-motion-pop-visible-once>
           <div class="imgBox">
             <img src="../assets/Restaurantly.png"  class="img-fluid imgB"  alt="">
           </div>
@@ -264,8 +268,6 @@ h2{
 }
 
 }
-
-
 
 
 
