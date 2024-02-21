@@ -9,23 +9,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
         <li class="nav-item">
           <router-link to="/">
-          <a class="nav-link active" aria-current="page" href="#">
-              <font-awesome-icon :icon="['fas', 'house']" /> Home
+          <a class="nav-link" aria-current="page" href="#"><font-awesome-icon :icon="['fas', 'house']" /> Home
             </a>
             </router-link>
         </li>
         
         <li class="nav-item">
-          <router-link to="/aboutme"> 
+          <router-link @click="scrollToElement('about')" to="/about"> 
             <a class="nav-link"><font-awesome-icon :icon="['fas', 'address-card']" /> About</a>
           </router-link>
         </li>
 
         <li class="nav-item">
-          <router-link to="/project"> 
-            <a class="nav-link" href="#"><font-awesome-icon :icon="['fas', 'briefcase']" /> Project</a>
+          <router-link  @click="scrollToElement('project')" to="/project"> 
+            <a class="nav-link" ><font-awesome-icon :icon="['fas', 'briefcase']" /> Project</a>
           </router-link>
         </li>
       </ul>
@@ -40,19 +40,20 @@
       </span>
       <span class="navbar-text">
         <li class="nav-item">
-          <router-link to="/contact"> 
-            <a class="nav-link active" href="#"><font-awesome-icon :icon="['fas', 'envelope']" /> Contact me</a>
+          <router-link   @click="scrollToElement('contact')" to="/contact"> 
+            <a class="nav-link active"><font-awesome-icon :icon="['fas', 'envelope']" /> Contact me</a>
           </router-link>
         </li>
       </span>
     </div>
   </div>
 </nav>
+<router-view/>
 
 <!-- Portfolio -->
 
 <div class="row mt-5">
-  <div class="col-md text-center"  v-motion-roll-top>
+  <div class="col-md text-center"  id="about" v-motion-roll-top>
     <h1>Hello 👋, <br>I'm <span class="inBtw">Bankole Michael</span>  <br> A Front-End Developer</h1>
   </div>
 </div>
@@ -60,7 +61,7 @@
 <div class="row">
   <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
-    <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
+    <h5 class="mt-1">I'm Bankole Michaesel a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
       My competence in Vue empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
       <h5 class="mt-1"> Beyond Vue, I'm well-versed in React Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
@@ -82,7 +83,7 @@
       <!-- <div v-motion:initial="{ y: 100,  opacity: 0, }" :enter="{ y: 0, opacity: 1, transition: { y: { delay: 1600, }, opacity: {  duration: 1600, }, }, }"/> -->
       
       <!-- PROJECTS -->
-      <div class="row mt-5">
+      <div class="row mt-5"  id="project" >
         <h2>Projects <font-awesome-icon :icon="['fas', 'arrow-right']" /></h2>
         <!-- Project 1 -->
         <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
@@ -161,7 +162,7 @@
       <!-- Contact -->
 
       <div class="row mt-5">
-        <div class="col-md">
+        <div class="col-md" id="contact">
           <h2>Contact Me <font-awesome-icon :icon="['fas', 'arrow-right']" /></h2>
           <h5>Feel free to reach out if you're looking for a front end engineer <br>
             to work on your next project, have a question or just fancy saying hi.</h5>
@@ -186,7 +187,18 @@ export default {
   name: 'Portfolio',
   props: {
     msg: String
-  }
+  },
+  methods :{
+    scrollToElement(elementId) {
+      const element = document.getElementById(elementId)
+      if (element) {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }
+  },
 }
 </script>
 
@@ -247,6 +259,11 @@ h2{
 }
 .btnBox{
   margin-top: 5px;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /* ul li h5{
   color: #42b983;

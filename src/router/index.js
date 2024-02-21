@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import PortfolioView from '../views/PortfolioView.vue'
-import Portfolio from '../components/Portfolio.vue'
+// import Portfolio from '../components/Portfolio.vue'
 
 const routes = [
   {
@@ -8,16 +8,24 @@ const routes = [
     name: 'home',
     component: PortfolioView
   },
-  // {
-  //   path: '/',
-  //   name: 'aboutme',
-  //   component: PortfolioView
-  // },
   {
-    path: '/aboutme',
-    name: 'aboutme',
-    component: Portfolio
+    path: '/',
+    component: PortfolioView
   },
+  { path: '/project',
+   component: () => import('@/views/PortfolioView.vue')
+   },
+  { path: '/about',
+   component: () => import('@/views/PortfolioView.vue')
+   },
+  { path: '/contact',
+   component: () => import('@/views/PortfolioView.vue')
+   },
+  // {
+  //   path: '/aboutme',
+  //   name: 'aboutme',
+  //   component: Portfolio
+  // },
 
   {
     path: '/about',

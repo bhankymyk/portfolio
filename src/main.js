@@ -3,13 +3,13 @@ import App from './App.vue'
 import router from './router'
 import { MotionPlugin } from '@vueuse/motion'
 
+// bootstrap
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js"
 
 // Create the Vue app instance
 const app = createApp(App);
 
-// bootstrap
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js"
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSquare, faArrowRight ,faBriefcase, faEnvelope, faCheck, faHouse, faAddressCard, faListCheck, faPenToSquare} from '@fortawesome/free-solid-svg-icons';
