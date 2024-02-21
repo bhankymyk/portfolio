@@ -10,11 +10,11 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
+          <router-link to="/">
           <a class="nav-link active" aria-current="page" href="#">
-            <router-link to="/">
               <font-awesome-icon :icon="['fas', 'house']" /> Home
-            </router-link>
             </a>
+            </router-link>
         </li>
         
         <li class="nav-item">
@@ -59,7 +59,7 @@
 
 <div class="row">
   <div class="col-md-8" v-motio--pop-visible-once>
-    <h2 class="h-2">About Me </h2>
+    <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
     <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
       My competence in Vue empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
@@ -83,7 +83,7 @@
       
       <!-- PROJECTS -->
       <div class="row mt-5">
-        <h2>Projects</h2>
+        <h2>Projects <font-awesome-icon :icon="['fas', 'arrow-right']" /></h2>
         <!-- Project 1 -->
         <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
           <div class="">
@@ -158,9 +158,11 @@
         </div>
       </div> -->
 
-      <div class="row">
+      <!-- Contact -->
+
+      <div class="row mt-5">
         <div class="col-md">
-          <h2>Contact Me</h2>
+          <h2>Contact Me <font-awesome-icon :icon="['fas', 'arrow-right']" /></h2>
           <h5>Feel free to reach out if you're looking for a front end engineer <br>
             to work on your next project, have a question or just fancy saying hi.</h5>
           <ul>
@@ -207,7 +209,10 @@ h2{
   color: green;
   margin-left: 20px;
 }
-.h-2::after {
+.svg-inline--fa{
+  vertical-align: -0.2em;
+}
+/* .h-2::after {
     content: "";
     position: absolute;
     top: 57%;
@@ -217,7 +222,7 @@ h2{
     width: 7rem;
     height: 4px;
     background-color: green;
-}
+} */
 .Contact{
   margin-top: 200px;
 }
@@ -255,28 +260,19 @@ h2{
     margin-top: 20px;
   }
   
-  .h-2::after {
+  /* .h-2::after { */
     /* content: ""; */
     /* position: absolute; */
-    top: 46%;
+    /* top: 46%; */
     /* margin-left: 10px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 7rem;
     height: 4px;
     background-color: green; */
+/* } */
 }
 
-}
-
-
-
-
-
-
-h3 {
-  margin: 40px 0 0;
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -286,7 +282,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: green !important;
   text-decoration: none;
 }
 </style>
