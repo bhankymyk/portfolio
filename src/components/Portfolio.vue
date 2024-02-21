@@ -28,16 +28,17 @@
             <a class="nav-link" ><font-awesome-icon :icon="['fas', 'briefcase']" /> Project</a>
           </router-link>
         </li>
+
       </ul>
       <span class="navbar-text">
       </span>
-      <span class="navbar-text">
+      <!-- <span class="navbar-text">
         <li class="nav-item">
           <router-link to="/skills"> 
             <a class="nav-link active" href="#"><font-awesome-icon :icon="['fas', 'list-check']" /> Skills</a>
           </router-link>
         </li>
-      </span>
+      </span> -->
       <span class="navbar-text">
         <li class="nav-item">
           <router-link   @click="scrollToElement('contact')" to="/contact"> 
@@ -61,7 +62,7 @@
 <div class="row">
   <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
-    <h5 class="mt-1">I'm Bankole Michaesel a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
+    <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
       My competence in Vue empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
       <h5 class="mt-1"> Beyond Vue, I'm well-versed in React Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
@@ -90,12 +91,16 @@
           <div class="">
             <img src="../assets/Mealy.png"  class="img-fluid imgB" alt="">
           </div>
+          <div class="about mt-1">
+            <h5>Mealy - Calorie Meal Planner</h5>
+            <p>Tools - React Js, Spoonacular Api, Bootstrap</p>
+          </div>
           <div class="btnBox">
             <a href="https://github.com/bhankymyk/Calorie-meal-planner">
-              <button class="btn btn-success">Github</button>
+              <button class="btn btn-success">Code</button>
             </a>
             <a href="https://calorie-meal-planner.netlify.app/">
-              <button class="btn btn-success">Live Demo</button>
+              <button class="btn btn-success">Live</button>
             </a>
           </div>
         </div>
@@ -104,12 +109,16 @@
           <div class="">
             <img src="../assets/Landify.png"  class="img-fluid imgB" alt="">
           </div>
+          <div class="about mt-1">
+            <h5>Landify - Landing Page</h5>
+            <p>Tools - Vue Js, Bootstrap</p>
+          </div>
           <div class="btnBox">
             <a href="https://github.com/bhankymyk/playground-app">
-              <button class="btn btn-success">Github</button>
+              <button class="btn btn-success">Code</button>
             </a>
             <a href="https://landingpage-vue.netlify.app/">
-              <button class="btn btn-success">Live Demo</button>
+              <button class="btn btn-success">Live</button>
             </a>
           </div>
         </div>
@@ -120,12 +129,16 @@
           <div class="">
             <img src="../assets/Expensely.png"  class="img-fluid imgB" alt="">
           </div>
+          <div class="about mt-1">
+            <h5>Expensely - Expenses Tracker</h5>
+            <p>Tools - Vue Js, Bootstrap, Render</p>
+          </div>
           <div class="btnBox">
             <a href="https://github.com/bhankymyk/Expenses-Tracker-v1">
-              <button class="btn btn-success">Github</button>
+              <button class="btn btn-success">Code</button>
             </a>
             <a href="https://expenses-trackers-v1.netlify.app/">
-              <button class="btn btn-success">Live Demo</button>
+              <button class="btn btn-success">Live</button>
             </a>
           </div>
         </div>
@@ -134,12 +147,16 @@
           <div class="imgBox">
             <img src="../assets/Restaurantly.png"  class="img-fluid imgB"  alt="">
           </div>
+          <div class="about mt-1">
+            <h5>Restaurantly - Restaurant Mangement</h5>
+            <p>Tools - Vue Js, Bootstrap</p>
+          </div>
           <div class="btnBox">
             <a href="https://github.com/bhankymyk/restaurant">
-              <button class="btn btn-success">Github</button>
+              <button class="btn btn-success">Code</button>
             </a>
             <a href="https://restaurant-managements.netlify.app/">
-              <button class="btn btn-success">Live Demo</button>
+              <button class="btn btn-success">Live</button>
             </a>
           </div>
         </div>
@@ -224,26 +241,13 @@ h2{
 .svg-inline--fa{
   vertical-align: -0.2em;
 }
-/* .h-2::after {
-    content: "";
-    position: absolute;
-    top: 57%;
-    margin-left: 10px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 7rem;
-    height: 4px;
-    background-color: green;
-} */
 .Contact{
   margin-top: 200px;
 }
-
   .imgB:hover{
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
   /* background: #42b983; */
-
 }
 
 .imgB{
@@ -258,36 +262,16 @@ h2{
   margin: 7px;
 }
 .btnBox{
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .navbar{
   position: fixed;
   top: 0;
   width: 100%;
 }
-/* ul li h5{
-  color: #42b983;
-} */
-
-@media screen and (max-width: 767px) {
-  ul li {
-    display: inline;
-  }
-  .Contact {
-    margin-top: 20px;
-  }
-  
-  /* .h-2::after { */
-    /* content: ""; */
-    /* position: absolute; */
-    /* top: 46%; */
-    /* margin-left: 10px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 7rem;
-    height: 4px;
-    background-color: green; */
-/* } */
+.about h5{
+  text-align: center;
+  color: #198754;
 }
 
 ul {
@@ -302,4 +286,15 @@ a {
   color: green !important;
   text-decoration: none;
 }
+
+/* Small Screen of 767px */
+@media screen and (max-width: 767px) {
+  ul li {
+    display: inline;
+  }
+  .Contact {
+    margin-top: 20px;
+  }
+}
+
 </style>
