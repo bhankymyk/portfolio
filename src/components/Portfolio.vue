@@ -63,10 +63,10 @@
   <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
     <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
-      My competence in Vue empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
+      My competence in React Js empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
-      <h5 class="mt-1"> Beyond Vue, I'm well-versed in React Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
-        UI development using CSS and Bootstrap, ensuring professional and consistent designs. </h5>
+      <h5 class="mt-1"> Beyond Vue, I'm well-versed in Vue Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
+        UI development using Tailwind CSS and Bootstrap, ensuring professional and consistent designs. </h5>
         <h5>I'm actively seeking a full-time role as a front-end developer and would welcome the opportunity to collaborate with those who value
           building great user interfaces and experiences. </h5>
           <h5 class="mt-1">Outside of coding, I indulge in reading, watching football, and delving into the realms of finance and economics.</h5>
