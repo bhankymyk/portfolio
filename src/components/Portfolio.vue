@@ -65,7 +65,7 @@
     <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
       My competence in React Js empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
-      <h5 class="mt-1"> Beyond Vue, I'm well-versed in Vue Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
+      <h5 class="mt-1"> Beyond React Js, I'm well-versed in Vue Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
         UI development using Tailwind CSS and Bootstrap, ensuring professional and consistent designs. </h5>
         <h5>I'm actively seeking a full-time role as a front-end developer and would welcome the opportunity to collaborate with those who value
           building great user interfaces and experiences. </h5>
