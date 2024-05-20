@@ -3,7 +3,7 @@
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bankole Michael</a>
+          <a class="navbar-brand" href="#"> Michael Bankole</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +12,7 @@
         
         <li class="nav-item">
           <router-link to="/">
-          <a class="nav-link" aria-current="page" href="#"><font-awesome-icon :icon="['fas', 'house']" /> Home
+          <a class="nav-link" aria-current="page" href="#"><font-awesome-icon :icon="['fas', 'house']" />  <span class="mt-5">Home</span>
             </a>
             </router-link>
         </li>
@@ -55,25 +55,25 @@
 
 <div class="row mt-5">
   <div class="col-md text-center"  id="about" v-motion-roll-top>
-    <h1>Hello 👋, <br>I'm <span class="inBtw">Bankole Michael</span>  <br> A Front-End Developer</h1>
+    <h1>Hello 👋, <br>I'm <span class="inBtw"> Michael Bankole</span>  <br> A Front-End Developer</h1>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
-    <h5 class="mt-1">I'm Bankole Michael a gradute of ALX specialized in frontend, am passionate about continous learning software and technology in general.
-      My competence in React Js empowers me to create high-performance web applications that are both user-friendly and visually captivating.</h5>
+    <h5 class="mt-1">I'm Michael Bankole, a graduate of ALX with a specialization in frontend development. I am 
+      passionate about continuous learning in software and technology. My expertise in React Js empowers me 
+      to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
-      <h5 class="mt-1"> Beyond React Js, I'm well-versed in Vue Js, allowing me to handle projects across multiple frameworks. I also have a strong command of 
-        UI development using Tailwind CSS and Bootstrap, ensuring professional and consistent designs. </h5>
-        <h5>I'm actively seeking a full-time role as a front-end developer and would welcome the opportunity to collaborate with those who value
-          building great user interfaces and experiences. </h5>
-          <h5 class="mt-1">Outside of coding, I indulge in reading, watching football, and delving into the realms of finance and economics.</h5>
+      <h5 class="mt-1"> In addition to React Js, I am well-versed in Vue Js, Next Js, and TypeScript, enabling
+         me to handle projects across multiple frameworks. I have a strong command of UI development using Tailwind CSS and Bootstrap, ensuring professional and consistent designs. </h5>
+        <h5>I am actively seeking a full-time role as a frontend developer and would welcome the opportunity to collaborate with a team that values building great user interfaces and experiences. </h5>
+          <h5 class="mt-1">Outside of coding, I enjoy reading, watching football, and exploring finance and economics.</h5>
         </div>
         <div class="col-md-4 Contact">
           <div>  
-            <a href="https://drive.google.com/file/d/1QabxhsHbmtaKU6BDYnRtOrSSvpoMmgjp/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1ceAtxqyCL8McuTSrEWg2ppw3mnlnNbUD/view?usp=sharing"> 
               
               <button class="btn  btn-block btn-success">My Resume</button>  
             </a>
@@ -192,6 +192,12 @@
           </ul>
         </div>
       </div>
+      <div class="foot mt-2">
+        <hr>
+        <p className="text-center">
+          &copy; 2024. Created by Michael Bankole.
+        </p>
+      </div>
       
       
       
@@ -285,6 +291,10 @@ li {
 a {
   color: green !important;
   text-decoration: none;
+}
+.foot {
+  color: green;
+  font-weight: 600;
 }
 
 /* Small Screen of 767px */
