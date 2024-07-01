@@ -100,7 +100,7 @@
             security. I have a strong command of UI development using <span class="inBtw fw-bolder">Tailwind
               CSS and Bootstrap</span>, ensuring professional and consistent designs.
           </h5>
-          <h5>
+          <h5 class="p-3 lh-lg">
             I am actively seeking a full-time role as a frontend developer and
             would welcome the opportunity to collaborate with a team that values
             building great user interfaces and experiences.
