@@ -62,7 +62,7 @@
 <div class="row">
   <div class="col-md-8" v-motio--pop-visible-once>
     <h2 class="h-2">About Me <font-awesome-icon :icon="['fas', 'arrow-right']" /> </h2>
-    <h5 class="mt-1">I'm Michael Bankole, a graduate of ALX with a specialization in frontend development. I am 
+    <h5 class="mt-1">I'm Michael Bankole, Frontend Developer with two years of hands-on experience in Frontend Development. I am 
       passionate about continuous learning in software and technology. My expertise in React Js empowers me 
       to create high-performance web applications that are both user-friendly and visually captivating.</h5>
       
@@ -87,37 +87,37 @@
       <div class="row mt-5"  id="project" >
         <h2>Projects <font-awesome-icon :icon="['fas', 'arrow-right']" /></h2>
         <!-- Project 1 -->
-        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
-          <div class="">
-            <img src="../assets/Mealy.png"  class="img-fluid imgB" alt="">
+        <div class="col-md-6 imgBox" v-motion-pop-visible-once>
+          <div class="imgBox">
+            <img src="../assets/Artify.png"  class="img-fluid imgB"  alt="">
           </div>
           <div class="about mt-1">
-            <h5>Mealy - Calorie Meal Planner</h5>
-            <p>Tools - React Js, Spoonacular Api, Bootstrap</p>
+            <h5>Artify -  An Art Collection</h5>
+            <p>Tools - Next.js, React.js, TypeScript, Art institute of Chicago API , Tailwind CSS</p>
           </div>
           <div class="btnBox">
-            <a href="https://github.com/bhankymyk/Calorie-meal-planner">
+            <a href="https://github.com/bhankymyk/artworkApp">
               <button class="btn btn-success">Code</button>
             </a>
-            <a href="https://calorie-meal-planner.netlify.app/">
+            <a href="https://artwork-app-beta.vercel.app/">
               <button class="btn btn-success">Live</button>
             </a>
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
-          <div class="">
-            <img src="../assets/Landify.png"  class="img-fluid imgB" alt="">
+        <div class="col-md-6 imgBox" v-motion-pop-visible-once>
+          <div class="imgBox">
+            <img src="../assets/Trivia.png"  class="img-fluid imgB"  alt="">
           </div>
           <div class="about mt-1">
-            <h5>Landify - Landing Page</h5>
-            <p>Tools - Vue Js, Bootstrap</p>
+            <h5>Trivia -  A Trivia Challenge Question</h5>
+            <p>Tools -  React.js, Redux, RestFul API, Tailwind CSS</p>
           </div>
           <div class="btnBox">
-            <a href="https://github.com/bhankymyk/playground-app">
+            <a href="https://github.com/bhankymyk/trivia-app/">
               <button class="btn btn-success">Code</button>
             </a>
-            <a href="https://landingpage-vue.netlify.app/">
+            <a href="https://michael-trivia-app.netlify.app/">
               <button class="btn btn-success">Live</button>
             </a>
           </div>
@@ -156,6 +156,43 @@
               <button class="btn btn-success">Code</button>
             </a>
             <a href="https://restaurant-managements.netlify.app/">
+              <button class="btn btn-success">Live</button>
+            </a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
+          <div class="">
+            <img src="../assets/Mealy.png"  class="img-fluid imgB" alt="">
+          </div>
+          <div class="about mt-1">
+            <h5>Mealy - Calorie Meal Planner</h5>
+            <p>Tools - React Js, Spoonacular Api, Bootstrap</p>
+          </div>
+          <div class="btnBox">
+            <a href="https://github.com/bhankymyk/Calorie-meal-planner">
+              <button class="btn btn-success">Code</button>
+            </a>
+            <a href="https://calorie-meal-planner.netlify.app/">
+              <button class="btn btn-success">Live</button>
+            </a>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        
+        <div class="col-md-6 mt-3 imgBox" v-motion-pop-visible-once>
+          <div class="">
+            <img src="../assets/Landify.png"  class="img-fluid imgB" alt="">
+          </div>
+          <div class="about mt-1">
+            <h5>Landify - Landing Page</h5>
+            <p>Tools - Vue Js, Bootstrap</p>
+          </div>
+          <div class="btnBox">
+            <a href="https://github.com/bhankymyk/playground-app">
+              <button class="btn btn-success">Code</button>
+            </a>
+            <a href="https://landingpage-vue.netlify.app/">
               <button class="btn btn-success">Live</button>
             </a>
           </div>
