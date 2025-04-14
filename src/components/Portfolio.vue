@@ -97,7 +97,8 @@
               TypeScript</span> , enabling me to handle projects across multiple
             frameworks.I am adept at integrating <span class="inBtw fw-bolder">RestFul API's</span> with frontend
             components and optimizing applications for speed, scalability, and
-            security. I have a strong command of UI development using <span class="inBtw fw-bolder">Tailwind
+            security, I also have expertise in state management with <span class="inBtw fw-bolder"> Redux and Zustand.
+               </span>I have a strong command of UI development using <span class="inBtw fw-bolder">Tailwind
               CSS and Bootstrap</span>, ensuring professional and consistent designs.
           </h5>
           <h5 class="p-3 lh-lg">
@@ -113,7 +114,7 @@
         <div class="col-md-4 Contact">
           <div>
             <a
-              href="https://drive.google.com/file/d/1ceAtxqyCL8McuTSrEWg2ppw3mnlnNbUD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1G5JKqgDT9Enx9U85-FposKvBq4_s4u7L/view?usp=sharing"
             >
               <button class="btn btn-block btn-success">My Resume</button>
             </a>
@@ -306,7 +307,7 @@
     </div>
     <div class="foot mt-2">
       <hr />
-      <p className="text-center">&copy; 2024. Created by Michael Bankole.</p>
+      <p className="text-center">&copy; 2025. Created by Michael Bankole.</p>
     </div>
   </div>
   <!-- </div> -->
