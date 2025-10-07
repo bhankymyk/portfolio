@@ -80,37 +80,38 @@
       </div>
 
       <div class="row">
-        <div class="col-md-8" v-motio--pop-visible-once>
-          <h2 class="h-2">
-            About Me <font-awesome-icon :icon="['fas', 'arrow-right']" />
-          </h2>
-          <h5 class="mt-1 text-justify p-3 lh-lg">
-            I'm <span class="inBtw fw-bolder">Michael Bankole, A Frontend Developer</span>  with two years of hands-on
-            experience in Frontend Development. I am passionate about continuous
-            learning in software and technology. My expertise in <span class="inBtw fw-bolder"> React Js</span>
-            empowers me to create high-performance web applications that are
-            both user-friendly and visually captivating.
-          </h5>
+<div class="col-md-8" v-motio--pop-visible-once>
+    <h2 class="h-2">
+        About Me <font-awesome-icon :icon="['fas', 'arrow-right']" />
+    </h2>
+    <h5 class="mt-1 text-justify p-3 lh-lg">
+        I'm <span class="inBtw fw-bolder">Michael Bankole, A Frontend Developer</span> with two years of hands-on
+        experience in Frontend Development. I am passionate about continuous
+        learning in software and technology. My expertise in <span class="inBtw fw-bolder"> React Js</span>
+        empowers me to create high-performance web applications that are
+        both user-friendly and visually captivating.
+    </h5>
 
-          <h5 class="mt-1 text-justify p-3 lh-lg">
-            In addition to React Js, I am well-versed in <span class="inBtw fw-bolder">Vue Js, Next Js, and
-              TypeScript</span> , enabling me to handle projects across multiple
-            frameworks.I am adept at integrating <span class="inBtw fw-bolder">RestFul API's</span> with frontend
-            components and optimizing applications for speed, scalability, and
-            security, I also have expertise in state management with <span class="inBtw fw-bolder"> Redux and Zustand.
-               </span>I have a strong command of UI development using <span class="inBtw fw-bolder">Tailwind
-              CSS and Bootstrap</span>, ensuring professional and consistent designs.
-          </h5>
-          <h5 class="p-3 lh-lg">
-            I am actively seeking a full-time role as a frontend developer and
-            would welcome the opportunity to collaborate with a team that values
-            building great user interfaces and experiences.
-          </h5>
-          <h5 class="mt-1 text-justify p-3 lh-lg">
-            Outside of coding, I enjoy reading, watching football, and exploring
-            finance and economics.
-          </h5>
-        </div>
+    <h5 class="mt-1 text-justify p-3 lh-lg">
+        In addition to React Js, I am well-versed in <span class="inBtw fw-bolder">React Native</span>, which allows me to
+        develop cross-platform mobile applications. I also have experience with <span class="inBtw fw-bolder">Vue Js, Next Js, and
+        TypeScript</span>, enabling me to handle projects across multiple
+        frameworks. I am adept at integrating <span class="inBtw fw-bolder">RestFul API's</span> with frontend
+        components and optimizing applications for speed, scalability, and
+        security. I also have expertise in state management with <span class="inBtw fw-bolder"> Redux and Zustand.
+        </span>I have a strong command of UI development using <span class="inBtw fw-bolder">Tailwind
+        CSS and Bootstrap</span>, ensuring professional and consistent designs.
+    </h5>
+    <h5 class="p-3 lh-lg">
+        I am actively seeking a full-time role as a frontend developer and
+        would welcome the opportunity to collaborate with a team that values
+        building great user interfaces and experiences.
+    </h5>
+    <h5 class="mt-1 text-justify p-3 lh-lg">
+        Outside of coding, I enjoy reading, watching football, and exploring
+        finance and economics.
+    </h5>
+</div>
         <div class="col-md-4 Contact">
           <div>
             <a
