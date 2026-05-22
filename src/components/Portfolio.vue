@@ -26,7 +26,7 @@
           <p class="hero-greeting">Hi there 👋, I'm</p>
           <h1 class="hero-name">Michael Bankole</h1>
           <h2 class="hero-title">Frontend Engineer <span class="accent">·</span> Web &amp; Mobile</h2>
-          <p class="hero-bio">I craft fast, scalable web and mobile applications,turning complex requirements into clean, intuitive user experiences. I've shipped real-time tracking apps, AI-powered chatbots, role-based dashboards, and cross-platform mobile apps using React, React Native, TypeScript, and Next.js.</p>
+          <p class="hero-bio">I craft fast, scalable web and mobile applications, turning complex requirements into clean, intuitive user experiences. I've shipped real-time tracking apps, AI-powered chatbots, role-based dashboards, and cross-platform mobile apps using React, React Native, TypeScript, and Next.js.</p>
           <div class="hero-cta">
             <a href="#projects" class="btn-primary">View Projects</a>
             <a href="#contact" class="btn-outline">Get in Touch</a>
