@@ -1,0 +1,93 @@
+MICHAEL BANKOLE
+ Lagos State, Nigeria.
+ Portfolio | GitHub | Linkedin
+ bankole123michael@gmail.com | +2348160595076
+PROFESSIONAL SUMMARY:
+Frontend Engineer with over 3 years of expertise in the JavaScript/TypeScript ecosystem,
+delivering robust web and mobile app interfaces. Experienced in the full development lifecycle,
+from architectural planning to deploying scalable web apps using React and React Native.
+Skilled in enhancing application performance and user engagement through real-time features,
+secure authentication flows, and responsive design. Dedicated to writing clean, maintainable
+code that drives product reliability.
+SKILLS:
+● Languages: TypeScript, JavaScript (ES6+), HTML5, CSS3.
+● Frameworks: React.js, React Native, Next.js, Vue.js.
+● State Management: Redux Toolkit, Zustand, TanStack Query.
+● Styling: CSS, Bootstrap, Tailwind CSS
+● APIs and Tools: REST APIs, WebSocket, Google Maps API, SignalR.
+● Version Control: Git, GitHub
+● Project Management Tools: Jira, Slack, Trello, Linear, Asana.
+● AI Tools: Claude, ChatGPT, GitHub Copilot
+WORK EXPERIENCE
+Glidex Technology, Nigeria Oct 2025 – Present
+Frontend Engineer – Full Time
+● Built a role-based dashboard for the Anambra State Government advertising agency, enabling
+management of 1000+ signage assets and providing data-driven insight through an intuitive
+administrative interface, reducing manual tracking time by 40% based on internal operations
+feedback after replacing spreadsheet-based tracking.
+● Built the driver-side of a ride-hailing mobile app using React Native (Expo) and TypeScript,
+delivering core flows including authentication, onboarding, navigation, and real-time updates.
+● Implemented WebSocket real-time messaging and event updates between drivers and passengers
+to support live trip coordination and dependable in-app updates.
+● Integrated Redux Toolkit plus Redux persist for resilient state management, and TanStack Query
+for server state handling, improving data consistency across sessions and reducing sessionrelated UI inconsistencies.
+● Implemented location services, push notifications, deep linking, and biometric authentication to
+enhance safety, reliability, and user experience.
+MyStars Technology, Nigeria Jun 2025 – Feb 2026
+Frontend Developer – Contract
+● Developed a CMS for a school website, enabling non-technical staff to easily manage
+announcements, events, academic calendar and other school related content.
+● Built an AI-powered chatbot to handle common student and parent inquiries, reducing
+administrative workload by 25% and improving average response times from 1 hour to 2 minutes
+for repetitive student and parent questions.
+● Worked on a student transportation tracking web app using React.js, Google Maps API, Redux,
+and Tailwind CSS, enabling parents to monitor school pick up and drop off in real-time, improving
+safety tracking, and reducing parent inquiries about students locations by 30%.
+● Implemented real-time vehicle location updates with Google Maps using a 5 seconds refresh
+interval, ensuring accurate, continuously refreshed tracking for the parent and guardians.
+● Built a two-way chat system between parents and the school admin using SignalR, improving
+parent-admin communication by enabling faster issue reporting and resolution through real-time
+messaging.
+● Worked on a role-based dashboard for parents, guardians, and admins, with relevant insights and
+workflows, improving usability and clarity.
+Haven360Labs, Nigeria Feb 2024 – Jun 2025
+Frontend Developer – Full Time
+● Migrated an existing Learning Management System (LMS) from WordPress to Vue.js, improving
+performance, scalability, and overall user experience.
+● Developed a decluttering web app and mobile app using React, React Native, and utilizing
+Zustand for seamless state synchronization.
+● Redesigned and enhanced an e-commerce website using React and Redux by adding new features
+to improve user experience and functionality, and performance optimization, which led to a 15%
+increase in site speed.
+● Wrote reusable, well-structured components aligned with coding standards to improve
+maintainability and accelerate future development.
+● Conducted code reviews and provided constructive feedback to team members to maintain code
+quality, also delivered projects on time, contributing to a 10% boost in team productivity.
+● Partnered closely with UI/UX designers and backend teams to translate mockups and wireframes
+into interactive prototypes, iterating based on user feedback and integrating APIs for dynamic
+experience.
+● Utilized frontend frameworks (React.js, Next.js, TypeScript, and Tailwind) and integrated APIs
+to build dynamic user interfaces with enhanced functionalities.
+Intplus Tech, Nigeria Aug 2023 – Feb 2024
+Frontend Developer – Volunteer
+● Led a team of frontend developers by breaking down projects into tasks, reviewing PRs, and
+coordinating delivery for an E-commerce and an E-medical prototype.
+● Improved an E-Medical system prototype by streamlining user flows, reducing registration time by 15%
+during testing phases.
+● Utilized frontend frameworks using React.js, TypeScript, and integrated RESTful APIs to build
+interactive and dynamic user interfaces.
+Kohot Studio, Nigeria Nov 2021 – Apr 2022
+Frontend Developer – Contract
+● Contributed to an E-bill payment platform that enabled users to pay for services such as airtime
+and electricity more easily.
+● Developed responsive and user-friendly web applications using Bootstrap and JavaScript.
+● Implemented pixel-perfect designs provided by UI/UX designers, ensuring consistency across
+multiple browsers and devices.
+EDUCATION:
+Software Engineering (Frontend) 2023
+ALX: African Leadership X Holberton
+B.Tech - Food Science and Technology 2019
+Federal University of Technology, Minna, Niger State.
+AI Career Essential 2024
+ALX: African Leadership X
+REFEREES: Available on request.
