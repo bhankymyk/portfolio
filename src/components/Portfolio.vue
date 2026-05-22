@@ -63,12 +63,12 @@
               <span class="stat-label">Years Experience</span>
             </div>
             <div class="stat-card">
-              <span class="stat-num">7<span class="accent">+</span></span>
-              <span class="stat-label">Projects Shipped</span>
+              <span class="stat-num">5<span class="accent">+</span></span>
+              <span class="stat-label">Real Life Projects</span>
             </div>
             <div class="stat-card">
-              <span class="stat-num">4<span class="accent">+</span></span>
-              <span class="stat-label">Companies</span>
+              <span class="stat-num">3<span class="accent">+</span></span>
+              <span class="stat-label">Industries</span>
             </div>
             <div class="stat-card">
               <span class="stat-num">2<span class="accent">+</span></span>
@@ -97,7 +97,7 @@
     <!-- PROJECTS -->
     <section id="projects" class="section" ref="projects">
       <div class="container reveal" :class="{ visible: visibleSections.projects }">
-        <h2 class="section-title">Selected Projects</h2>
+        <h2 class="section-title">Selected Real Life Projects</h2>
         <div class="projects-grid">
           <div class="project-card" v-for="p in projects" :key="p.title">
             <div class="project-img-wrap">
@@ -193,7 +193,7 @@ export default {
         { label: 'Languages', items: ['TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3'] },
         { label: 'Frameworks', items: ['React.js', 'React Native', 'Next.js', 'Vue.js', 'Expo'] },
         { label: 'State Management', items: ['Redux Toolkit', 'Zustand', 'TanStack Query', 'Redux Persist'] },
-        { label: 'Styling', items: ['Tailwind CSS', 'Bootstrap', 'Styled Components', 'CSS Modules'] },
+        { label: 'Styling', items: ['Tailwind CSS', 'Bootstrap', 'Styled Components', 'Nativewind'] },
         { label: 'APIs & Real-time', items: ['REST APIs', 'WebSocket', 'SignalR', 'Google Maps API'] },
         { label: 'Tools & DevOps', items: ['Git', 'GitHub', 'Vercel', 'Jira', 'Linear', 'Figma'] },
       ],
