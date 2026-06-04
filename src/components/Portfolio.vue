@@ -173,7 +173,7 @@
 
 <script>
 import avatarImg from '../assets/avatar.png';
-import chatbotImg from '../assets/project-chatbot.png';
+import chatbotImg from '../assets/project-chatbot1.png';
 import cmsImg from '../assets/project-cms.png';
 import trackerImg from '../assets/project-tracker.png';
 import haustidyImg from '../assets/project-haustidy.png';
@@ -203,7 +203,7 @@ export default {
           type: 'Web',
           desc: 'AI-powered chatbot for SMS Abuja school that handles student & parent inquiries, reducing admin workload by 25% and response time from 1 hour to 2 minutes.',
           tags: ['React.js', 'AI', 'TypeScript'],
-          live: 'https://www.smsabuja.com/',
+          live: 'https://test.smsabuja.com/ask-stella-maris',
           github: null,
           img: chatbotImg,
         },
