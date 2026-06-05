@@ -180,6 +180,7 @@ import haustidyImg from '../assets/project-haustidy.png';
 import ansaaImg from '../assets/project-ansaa.png';
 import mystarImg from '../assets/project-mystartracker.png';
 import gorydaImg from '../assets/project-goryda.png';
+import lmsImg from '../assets/LMS.png';
 
 export default {
   name: 'Portfolio',
@@ -208,13 +209,13 @@ export default {
           img: chatbotImg,
         },
         {
-          title: 'School CMS',
-          type: 'Web',
-          desc: 'Content management system enabling non-technical staff to manage announcements, events, and academic calendars for a school website.',
-          tags: ['React.js', 'CMS', 'TypeScript'],
-          live: 'https://cms.smsabuja.com/',
+          title: 'Goryda – Ride Hailing App',
+          type: 'Mobile',
+          desc: 'Driver-side of a ride-hailing app with real-time WebSocket updates, biometric authentication, deep linking, and live trip coordination between drivers and passengers.',
+          tags: ['React Native', 'Expo', 'WebSocket', 'Redux Toolkit', 'TanStack Query'],
+          live: 'https://play.google.com/store/apps/details?id=com.goryda.customer',
           github: null,
-          img: cmsImg,
+          img: gorydaImg,
         },
         {
           title: 'Student Transportation Tracker',
@@ -235,6 +236,15 @@ export default {
           img: haustidyImg,
         },
         {
+          title: 'School CMS',
+          type: 'Web',
+          desc: 'Content management system enabling non-technical staff to manage announcements, events, and academic calendars for a school website.',
+          tags: ['React.js', 'CMS', 'TypeScript'],
+          live: 'https://cms.smsabuja.com/',
+          github: null,
+          img: cmsImg,
+        },
+        {
           title: 'ANSAA Dashboard',
           type: 'Web',
           desc: 'Role-based dashboard for the Anambra State Government advertising agency — managing 1000+ signage assets and reducing manual tracking time by 40%.',
@@ -253,13 +263,13 @@ export default {
           img: mystarImg,
         },
         {
-          title: 'Goryda – Ride Hailing App',
-          type: 'Mobile',
-          desc: 'Driver-side of a ride-hailing app with real-time WebSocket updates, biometric authentication, deep linking, and live trip coordination between drivers and passengers.',
-          tags: ['React Native', 'Expo', 'WebSocket', 'Redux Toolkit', 'TanStack Query'],
-          live: 'https://play.google.com/store/apps/details?id=com.goryda.customer',
+          title: 'E-Learning Management System',
+          type: 'Web',
+          desc: 'Migrated a WordPress-based LMS to Vue.js, improving performance and scalability. Developed interactive course modules, quizzes, and progress tracking features.',
+          tags: ['Vue.js', 'Pinia', 'TypeScript', 'REST API'],
+          live: 'https://therevivalschool.com/hosting-the-presence-adult-application/',
           github: null,
-          img: gorydaImg,
+          img: lmsImg,
         },
       ],
       experience: [
