@@ -37,7 +37,7 @@
         </div>
         <div class="hero-img">
           <div class="avatar-ring">
-            <img :src="avatarImg" alt="Michael Bankole" class="avatar" />
+            <img src="../assets/profile_pictures.jpeg" alt="Michael Bankole" class="avatar" />
           </div>
         </div>
       </div>
@@ -172,7 +172,6 @@
 </template>
 
 <script>
-import avatarImg from '../assets/avatar.png';
 import chatbotImg from '../assets/project-chatbot1.png';
 import cmsImg from '../assets/project-cms.png';
 import trackerImg from '../assets/project-tracker.png';
