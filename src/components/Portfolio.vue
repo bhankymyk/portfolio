@@ -37,7 +37,7 @@
         </div>
         <div class="hero-img">
           <div class="avatar-ring">
-            <img src="../assets/avatar.png" alt="Michael Bankole" class="avatar" />
+            <img src="../assets/profile_pictures.JPEG" alt="Michael Bankole" class="avatar" />
           </div>
         </div>
       </div>
