@@ -25,7 +25,7 @@
         <div class="hero-text">
           <p class="hero-greeting">Hi there 👋, I'm</p>
           <h1 class="hero-name">Michael Bankole</h1>
-          <h2 class="hero-title">Frontend Engineer <span class="accent">·</span> Web &amp; Mobile</h2>
+          <h2 class="hero-title">Frontend Engineer and Mobile Engineer</h2>
           <p class="hero-bio">I craft fast, scalable web and mobile applications, turning complex requirements into clean, intuitive user experiences. I've shipped real-time tracking apps, AI-powered chatbots, role-based dashboards, and cross-platform mobile apps using React, React Native, TypeScript, and Next.js.</p>
           <div class="hero-cta">
             <a href="#projects" class="btn-primary">View Projects</a>
@@ -52,7 +52,7 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-grid">
           <div class="about-text">
-            <p>I'm a <strong>Frontend Engineer</strong> with almost 4 years of experience building scalable web and mobile applications across startup and enterprise environments. I specialise in the <strong>React / React Native / Next.js / Vue.js</strong> ecosystem and love turning complex problems into clean, intuitive interfaces.</p>
+            <p>I'm a <strong>Frontend Engineer and Mobile Engineer</strong> with almost 4 years of experience building scalable web and mobile applications across startup and enterprise environments. I specialise in the <strong>React / React Native / Next.js / Vue.js</strong> ecosystem and love turning complex problems into clean, intuitive interfaces.</p>
             <p>I've shipped products used by schools, government agencies, and logistics companies — including real-time tracking systems, AI-powered chatbots, ride-hailing apps, and content management platforms.</p>
             <p>I'm fluent in TypeScript, state management (Redux, Zustand, TanStack Query), real-time features (WebSockets, SignalR), and integrating REST APIs at scale.</p>
             <p>Outside code, I enjoy reading, watching football, and exploring finance and economics.</p>
